@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Hello! Welcome to Christiana Murphy's Portfolio!</title>
+     
+        <style> 
+        #port {background-color:#FE7DB1;color:white; 
+        text-align:center;
+        margin:auto;
+        }
+        #home{
+            background-color:#FE7DB1;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+        
+        .name{
+            color:white;}
+        }
+        p.a {
+  font-family: "Times New Roman",times}
+}
+        a{
+            text-decoration:none;
+            color:black;
+        }
+        a:hover{
+          color:lightblue;
+            
+        }
+          #header{
+             background-color:#72EDC5;
+          }
+          table{
+              width:100%;
+          }
+         #about{
+            width:100%;
+            margin:auto;
+            background-color:#72EDC5;
+            color:white;
+            padding:100px;
+            }
+            #about h1{
+                color:White;
+                text-align:center;
+            }
+            #about img{
+                width:165px;
+                height:auto;
+                display:block;
+                margin:auto;
+            }
+            #about p{
+                font-size:15px;
+                color:white;
+            
+            }
+            #about hr{
+                border:none;
+                border-top:3px solid white;
+                width:40%;
+                margin:auto;
+            }
+            #skills{
+             width:100%;
+            margin:auto;
+            background-color:#FE7DB1;
+            color:white;
+            padding:185px;
+            }
+            
+            #skills h1{
+                color:White;
+                text-align:center;
+            }
+            
+            #skills hr{
+                border:none;
+                border-top:3px solid white;
+                width:40%;
+                margin:auto;
+            }
+             #skills p{
+            font-size:50px;
+            color:white;
+            text-align:center;
+             }
+             #skills img{
+                width:165px;
+                height:auto;
+                display:block;
+                margin:auto;
+            }
+            
+            #project {
+             width:100%;
+            margin:auto;
+            background-color:#C5ACFF;
+            color:white;
+            padding:185px;
+            }
+              #project h1{
+                color:White;
+                text-align:center;
+            }
+               #project hr{
+                border:none;
+                border-top:3px solid white;
+                width:40%;
+                margin:auto;
+            }
+             #project p{
+            font-size:20px;
+            color:white;
+            text-align:center;
+             }
+              #project img{
+                width:165px;
+                height:auto;
+                display:block;
+                margin:auto;
+              }
+                #contacts{
+             width:100%;
+            margin:auto;
+            background-color:#C5ACFF;
+            color:white;
+            padding:185px;
+            }
+          #contacts h1{
+              color:White;
+              text-align:center
+              
+          }
+           #contacts hr{
+                border:none;
+                border-top:3px solid white;
+                margin:9px;
+            }
+            #contacts td{
+                padding:10px;
+    
+            }
+            
+            label {
+                font-weight:bold;
+                display:block;
+                margin-bottom:5px;
+                text-align:center;
+            }
+          
+         
+              #more {
+             width:100%;
+            margin:auto;
+            background-color:#4D3681;
+            color:white;
+            padding:185px;
+            }
+            #more h1{
+                color:White;
+                text-align:center;
+            }
+             #more hr{
+                border:none;
+                border-top:3px solid white;
+                width:40%;
+                margin:auto;
+            }
+            #more p{
+            font-size:30px;
+            color:white;
+            text-align:center;
+             }
+              #more img{
+                width:165px;
+                height:auto;
+                display:block;
+                margin:auto;
+              }
+               button {
+                  background-color:#72EDC5;
+                  color:white;
+                  padding:10px;
+                  border:none;
+                  border-radius:4px;
+                  cursor:pointer;
+                  transition:background-color:0.3s;
+               }
+               .fa:hover {
+                   opacity:0.9;
+               }
+               .fa-Instagram {
+                   background:##d62976;
+                   color:white;
+                   }
+                   .fa {
+                       padding:20px;
+                       font-size:40px;
+                       width:60px;
+                       text-decoration:none;
+                       margin 5px 80px
+                   }
+        </style>
+        
+        
+    </head>
+
+    <body>
+        <!--Inside the body tag is where you put all the cool stuff
+        you want on your page!-->
+        <h1 id="port"> Portfolio</h1>
+        <table id="header" border="0">
+            <tr>
+                <td class="name"> <h3>Christiana Murphy</h3></td>
+                <td> <a href= "#home"><h3>home</h3></a></td>
+                <td> | </td>
+                <td> <a href= "#about"><h3>about</h3></a></td>
+                <td> | </td>
+                <td> <a href= "#skills"><h3>skills</h3></a></td>
+                <td> | </td>
+                <td> <a href= "#project"><h3>project</h3></a></td>
+                <td> | </td>
+            <td> <a href= "#more"><h3>more</h3></a></td>
+             <td> <a href= "#contacts"><h3>contacts</h3></a></td>
+            </tr>
+        
+        </table>
+    <header id="home">
+        <h3 class="greeting">Heya!</h3>
+    </header>
+    <table id="about"
+    <tr>
+    <td>
+    <h1>About me</h1>
+    <hr>
+    <br>
+   <img src="https://codehs.com/uploads/585201bf0628a0854943e631f4e57316">
+   <p>
+   Thanks for visting my website!
+   </p>
+   <p>I currently have experience working with html and css, as well as proficiency in the arts!</p>
+   <p> Come back soon!
+   much love, Christiana.</p>
+   </td>
+   <table id="skills"
+   <tr>
+   <td>
+   <h1>My skills</h1>
+   <hr>
+   <br>
+   <img src="https://codehs.com/uploads/a9d16bba6e672a5dea4b8a182a67b29c"
+   <p>I have skill in things like art, digital art, language arts, and more. </p>
+    </tr>
+    <table id="project"
+    <tr>
+    <td>
+    <h1>My (current) projects</h1>
+    <hr>
+    <br>
+    <img src="https://codehs.com/uploads/d9ae2fd5f38654a12a5ea3ebd758d419"
+    <p>My current projects include this very portfolio you see here, as well as a personalized weather app!</p>
+     </body>
+     </tr>
+   
+             </tr>
+      <table id="more"
+    <tr>
+    <td>
+    <h1>More!</h1>
+    <hr>
+    <br>
+    <img src="https://codehs.com/uploads/2f7f8f193dd72939ba2c7f19f435edbe"
+    <p>My portfolio is currently pretty daft, but as i get older and gain more experience, it will be more fulfulling! 
+    (i am only 15 afterall!)</p>
+    </tr>
+      <table id='contacts'>
+    <tr>
+         <td colspan="2">
+              
+             <h1>Contacts</h1>
+             <hr>
+             
+             </td>
+             </tr>
+              <tr>
+                 <td width="30%">
+                <label for="name">Name:</label>
+                </td>
+                <td width="70%">
+                <input type="text" id="name" name="name">
+                </td>
+             </tr>
+             <tr>
+                <td width="30%">
+                <label for="email">Email:</label>
+                </td>
+                <td width="70%">
+                <input type="email" id="email" name="email">
+                </td>
+             </tr>
+             <tr>
+            <td width="30%">
+            <label for="number">Number:</label>
+            </td>
+            <td width="70%">
+            <input type="number" id="number" name="number">
+            </td>
+            <tr>
+             <td width="30%">
+                 <label for="message">Message me:</label>
+            </td>
+            <td width="70%">
+            <textarea id="message" name="message" rows="5">
+            </textarea>
+            </tr>
+             </tr>
+             <tr>
+                <td width="30%"> </td>
+                <td width="70%">
+                <button type="submit"> <strong>Submit</strong>
+                </button>
+                <hr>
+   
+                </td>
+    
+            
+    
+     </body>
+</html>
